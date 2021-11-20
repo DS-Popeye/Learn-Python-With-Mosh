@@ -1,6 +1,5 @@
-def study(name):
-    name: "MD Shuvo"
-    print(f'{name}!')
+def user(first_name, last_name):
+    print(f'Hi {first_name} {last_name}!')
 
 
-study("mark")
+user(last_name="Mark",first_name="Junior")
