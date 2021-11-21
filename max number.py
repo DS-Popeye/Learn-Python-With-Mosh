@@ -4,7 +4,6 @@ def find_max(numbers):
     for number in numbers:
         if number > max:
             max = number
-    print(max)
     return  max
 
 find_max(max)
